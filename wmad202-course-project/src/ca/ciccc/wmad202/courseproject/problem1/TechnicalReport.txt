@@ -1,0 +1,30 @@
+Technical Report:
+
+Problem 1 -MyCompany | The Castle Company
+
+=====
+Topic(If not applied on Problem 1)
+write N/A next to thetopicIf you have applied,please very briefly explain how/why you have used it.
+=====
+
+■ nested class
+■ lambda expression
+■ interface
+■t ry and catch exception
+■ Comments
+
+=====
+About Class
+=====
+
+■　OpenFileReader
+In the getIntegerArray method in the OpenFileReader, the scanner is used to read castles.txt.
+Then, it is stored in ArrayList<ArrayList<Integer>>.
+
+In the InnerOpenFileReader method, the type of ArrayList is changed from ArrayList<ArrayList<Integer>>
+to ArrayList<Integer>, and processing is done so that the value can be passed to CastleCompany Class.
+
+■　CastleCompany
+The main method in CastleCompany processes the values received from the OpenFileReader Class.
+After declaring the int types begin, next, and end, the process of surveying the land is done.
+We will divide the process into three parts: Up land, Down land, Straight land, and Peaks, hills, and flats.
